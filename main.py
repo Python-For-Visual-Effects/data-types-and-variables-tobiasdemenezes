@@ -30,3 +30,21 @@ print(len(sentence))
 # 5.- Given the resolution 1920 x 1080, make a program that prints a string with 
 # the 10% over-scan value of those numbers. The printed string must be as 
 # follows: "The 10% overscan of 1920 is <value 1>, and the 1080 is <value 2>"
+
+#Version 1 of Answer 5
+value1 = 2112
+value2 = 1188
+finalSentence = ("The 10% overscan of 1920 is " + str(value1) + ", and the 1080 is " + str(value2))
+print(finalSentence)
+
+#Version 2 of Answer 5
+newVal_1 = "2112"
+newVal_2 = "1188"
+finalSentence = ("The 10% overscan of 1920 is " + newVal_1 + ", and the 1080 is " + newVal_2)
+print(finalSentence)
+
+#Version 3 of Answer 5
+val_1 = 1920 + (10*(1/100) * 1920)
+val_2 = 1080 + (10*(1/100) * 1080)
+newString = ("The 10% overscan of 1920 is " + str(val_1) + ", and the 1080 is " + str(val_2))
+print(newString)
