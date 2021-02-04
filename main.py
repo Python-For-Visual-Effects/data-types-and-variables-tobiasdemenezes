@@ -10,6 +10,10 @@ print(64 + 32)
 
 # 2.- Do the same as the question one but this time use variables instead of 
 # numbers.
+number1 = 64
+number2 = 32
+sumation = (number1 + number2)
+print(sumation)
 
 # 3.- Make a program that prints a sentence that includes at least 3 variables.
 
