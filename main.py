@@ -16,6 +16,10 @@ sumation = (number1 + number2)
 print(sumation)
 
 # 3.- Make a program that prints a sentence that includes at least 3 variables.
+software = "Houdini"
+version = "18.5"
+simType = "pyro"
+print("This " + simType + " simulation was done in " + software + ", version " + version)
 
 # 4.- Given a sentence, assign the string to a variable then print the number of 
 # characters in the sentence. 
