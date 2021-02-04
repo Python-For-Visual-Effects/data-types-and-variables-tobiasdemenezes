@@ -24,6 +24,8 @@ print("This " + simType + " simulation was done in " + software + ", version " +
 # 4.- Given a sentence, assign the string to a variable then print the number of 
 # characters in the sentence. 
 # The sentence is "This is my first Python program."
+sentence = "This is my first Python program."
+print(len(sentence))
 
 # 5.- Given the resolution 1920 x 1080, make a program that prints a string with 
 # the 10% over-scan value of those numbers. The printed string must be as 
